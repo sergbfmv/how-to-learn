@@ -6,10 +6,7 @@
   color: #000000;
 }
 
-.two-columns__paragraph:first-child {
-  margin-bottom: 30px;
-}
-
-.two-columns__paragraph:last-child {
+.two-columns__paragraph:nth-child(2) {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
